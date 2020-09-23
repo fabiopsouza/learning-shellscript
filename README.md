@@ -63,6 +63,37 @@
 - :q! : sai sem salvar
 - A: vai para o final da linha
 
+### VIM (Sucessor VI. Comandos do VI também funcionam)
+
+- vim: abre o editor
+- vim arquivo: abre o arquivo no vim
+- :echo $HOME (dentro do vim): mostra em qual pasta vim vai ler arquivo de configuração
+- vim .vimrc: cria arquivo de configuração do vim
+- 10 comando: repete o comando 10x (Ex.: 10 seta para esquerda)
+- j: seta para baixo
+- k: seta para cima
+- h: seta para esquerda
+- l: seta para direita
+- /nome_a_procurar: procura no arquivo
+- n: vai para a próxima ocorrência da busca
+- shift n: vai para a ocorrência anterior
+- u: desfaz última alteração
+- ctrl r: volta as alterações desfeitas
+- o: modo de insersão na próxima linha
+- SHIFT o: modo de insersão na linha acima
+- :%s/ul/nav/g : muda palava ul para nav globalmente (g)
+- :%s/ul/nav/gc : muda palava ul para nav globalmente escolhendo com Yes e No (gc)
+- shift+v: modo de seleção de linhas
+- ctrl+v: modo de seleção por bloco
+- y: copiar
+- p: colar
+- == :  ajusta a identação da linha
+- :vs nomeArquivo (vertical split): abre o outro arquivo dividindo a tela na vertical
+- :sp nomeArquivo (split padrão horizontal): abre o outro arquivo dividindo a tela na horizontal
+- Ctrl + WW: transita entre os arquivos splitados
+- Ctrol + W + H: Vai para o split da esquerda 
+- Ctrol + W + L: Vai para o split da direita
+
 ### Programas, Processos e Pacotes
 
 - ps: exibe processos do terminal
@@ -79,7 +110,7 @@
 - fg numero_do_job: tira do background (sem número pega o primeiro)
 - nome_processo &: abre em backgroud direto
 - sh nome_script: roda o script
-- sudo apt-get update: lista programas disponíveis para instalação
+- sudo apt-get update: atualiza os programas disponíveis para instalação
 - apt-cache search ftp: procura programas relacionados a ftp por exemplo
 - sudo apt-get install nome_programa: instala um novo programa
 - wget endereço: baixa arquivos/páginas da web
@@ -107,6 +138,11 @@
 - su nome_usuario: logar um um usuário específico
 - adduser nome: cria um usuário novo
 - exit: desloga do usuário
+
+### Plugins
+
+https://github.com/tpope/vim-pathogen
+
 
 ### Outros
 
