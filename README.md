@@ -83,6 +83,7 @@
 - SHIFT o: modo de insersão na linha acima
 - :%s/ul/nav/g : muda palava ul para nav globalmente (g)
 - :%s/ul/nav/gc : muda palava ul para nav globalmente escolhendo com Yes e No (gc)
+- v: seleção por letra
 - shift+v: modo de seleção de linhas
 - ctrl+v: modo de seleção por bloco
 - y: copiar
@@ -91,8 +92,14 @@
 - :vs nomeArquivo (vertical split): abre o outro arquivo dividindo a tela na vertical
 - :sp nomeArquivo (split padrão horizontal): abre o outro arquivo dividindo a tela na horizontal
 - Ctrl + WW: transita entre os arquivos splitados
-- Ctrol + W + H: Vai para o split da esquerda 
-- Ctrol + W + L: Vai para o split da direita
+- Ctrol + W + H: vai para o split da esquerda 
+- Ctrol + W + L: vai para o split da direita
+- Shift + V: vai para a última linha
+- :x : salva e sai
+- w: anda na lateral de palavra em palavra
+- r: entra no modo de replace de uma letra
+- qLETRA: grava sequência de comandos na letra C (q para terminar gravação)
+- @LETRA : executa o comando gravado na LETRA
 
 ### Programas, Processos e Pacotes
 
@@ -138,6 +145,7 @@
 - su nome_usuario: logar um um usuário específico
 - adduser nome: cria um usuário novo
 - exit: desloga do usuário
+- CTRL + N : Completa palavras
 
 ### Plugins
 
@@ -149,3 +157,4 @@ https://github.com/tpope/vim-pathogen
 - scripts dentro do diretório /etc/init.d serão executados no start
 - ssh-client: programa para logar em outra máquina
 - ssh-server: programa para servir como servidor
+- NERDTree: Árvore de pastas e arquivos
