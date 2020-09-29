@@ -30,6 +30,7 @@
 - env: exibe as variáveis de ambiente
 - PATH=$PATH:diretorio : acrescenta o diretório no path
 - ~/ : equivalente a home
+- " : comentário
 
 ### Parâmetros
 
@@ -125,6 +126,7 @@
 - sudo service nome_servico stop: para serviço
 - sudo service nome_servico start: inicia serviço
 - make (dentro da pasta do programa baixado): instala um programa a partir do código fonte. Vai informar se tiver dependência faltando
+- which 
 
 ### Permissões
 
@@ -149,12 +151,11 @@
 
 ### Plugins
 
-https://github.com/tpope/vim-pathogen
-
+- https://github.com/tpope/vim-pathogen
+- NERDTree: Árvore de pastas e arquivos
 
 ### Outros
 
 - scripts dentro do diretório /etc/init.d serão executados no start
 - ssh-client: programa para logar em outra máquina
 - ssh-server: programa para servir como servidor
-- NERDTree: Árvore de pastas e arquivos
